@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: build-trusted-artifacts
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build-trusted-artifacts/build-trusted-artifacts@sha256:e505ad8ab1c9465ed0cbab79950c1ff9ceb5059e5792a4fc6dfc35703619b6d2
+        name: container-image
+        resources: {}
+status: {}
