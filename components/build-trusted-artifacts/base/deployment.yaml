@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: build-trusted-artifacts
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build-trusted-artifacts/build-trusted-artifacts@sha256:45cb2266c1f34612f7aab38731bad657d2a3b91c57dd58e9a408732558e1280d
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build-trusted-artifacts/build-trusted-artifacts@sha256:f7808bd0b8aeca00d7ff5725e299ce4df8ada515cb3682a0888322c75c34d042
         imagePullPolicy: Always
         name: container-image
         resources:
