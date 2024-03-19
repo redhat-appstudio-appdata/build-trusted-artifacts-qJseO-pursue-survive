@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build-trusted-artifacts/build-trusted-artifacts@sha256:6e959da77767bcdd517a7ae7bc55875e694aea36067aaebaa17f3a0a678f3c21
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/build-trusted-artifacts/build-trusted-artifacts@sha256:ec7b844f5b0251011ab6d98064930df33bc5dc7185a296a4bdb55af7258b36f6
         name: container-image
         resources: {}
 status: {}
